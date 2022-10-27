@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow: hidden;
+}
+blockquote{
+    border-left:none
+}
+.quote-badge{
+    background-color: rgba(0, 0, 0, 0.2);   
+}
+.quote-box{
+    overflow: hidden;
+    margin: auto;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 17px;
+    background-color: hsl(236, 21%, 26%);
+    margin-top: 25px;
+    color:white;
+    width: 325px;
+    box-shadow: 2px 2px 2px 2px #E0E0E0;
+}
+.quotation-mark{
+    margin-top: -10px;
+    padding-left: 3%;
+    font-weight: bold;
+    font-size:100px;
+    color:white;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+.quote-text{
+    padding-left: 3%;
+    font-size: 19px;
+    margin-top: -65px;
+}
+.mainBG {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    padding-top: 8%;
+    background-color: rgb(30, 31, 41);
+    background-image: url(assests/Images/bg-stars.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.mainBG .firstRow {
+    width: 100%;
+    height: auto;
+    color: white;
+    letter-spacing: 9px;
+    text-align: center;
+    margin-bottom: 8%;
+}
+.mainBG .secondRow {
+    width: 100%;
+    height: auto;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.mainBG .secondRow .secondCol1 {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: rgb(251, 96, 135);
+}
+.mainBG .secondRow .secondCol1 div {
+    width: 23%;
+    background-color: rgb(52, 54, 80);
+    box-shadow: rgb(25, 26, 36) 0px 4px 0px;;
+    padding: 3% 0;
+    margin-bottom: 1.5%;
+    font-size: 50px;
+    border-radius: 13px;
+}
+.mainBG .secondRow .secondCol2 {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: rgb(132, 134, 169);
+}
+.mainBG .secondRow .secondCol2 div {
+    width: 20%;
+}
+.mainBG .thirdRow .thirdCol {
+    background-image: url(assests/Images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1545px;
+    margin-top: 8%;
+    padding: 5% 0;
+    text-align: center;
+}
+.mainBG .thirdRow .thirdCol div {
+    width: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.icon {
+    margin-top: 5.4%;
+    cursor: pointer;
+    color: rgb(132, 134, 169);
+    font-size: 30px;
+    transition: all ease-in-out .1s .1s;
+}
+@media (max-width: 576px) {
+    .mainBG {
+        padding-top: 37%;
+    }
+    .icon {
+        font-size: 33px;
+    }
+    .mainBG .thirdRow .thirdCol div {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .mainBG .thirdRow .thirdCol .hills {
+        width: 576px;
+        margin-top: 30%;
+    }
+    .mainBG .firstRow {
+        margin-bottom: 20%;
+    }
+    .mainBG .secondRow .secondCol1 div {
+        padding: 7% 0;
+        margin-bottom: 5%;
+    }
+    .mainBG .secondRow .secondCol2 {
+        margin-bottom: 30%;
+    }
+}
